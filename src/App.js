@@ -7,7 +7,9 @@ import Card from 'react-bootstrap/Card';
 function App() {
   return (
     <>
+    {/* the app scetion */}
     <div className="App">
+      {/* the navbar */}
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
         <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
@@ -32,6 +34,8 @@ function App() {
       </Container>
     </Navbar>
     <h1>MY WORK</h1>
+
+    {/* the first card  */}
     <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src="holder.js/100px180" />
       <Card.Body>
